@@ -41,20 +41,21 @@ setTimeout(() => {
                                       document.getElementById(
                                         "container"
                                       ).innerHTML = id;
-                                      setTimeout(
-                                        () => {
-                                          document.getElementById(
-                                            "container"
-                                          ).innerHTML = "HAPPY INDEPENDENCE DAY !!!!";
-                                          document.getElementById("container").style.color = "Green";
-                                          document.getElementById("container").style.textAlign = "center";
-                                          document.getElementById("container").style.fontSize = "35px";
-                                        
-                                          
-                                        },
-                                        500,
-                                        
-                                      );
+                                      setTimeout(() => {
+                                        document.getElementById(
+                                          "container"
+                                        ).innerHTML =
+                                          "HAPPY INDEPENDENCE DAY !!!!";
+                                        document.getElementById(
+                                          "container"
+                                        ).style.color = "Green";
+                                        document.getElementById(
+                                          "container"
+                                        ).style.textAlign = "center";
+                                        document.getElementById(
+                                          "container"
+                                        ).style.fontSize = "35px";
+                                      }, 500);
                                     },
                                     500,
                                     numberArray[9]
