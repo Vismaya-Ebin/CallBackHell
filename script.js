@@ -1,9 +1,4 @@
-// for(let i = 10; i >= 1 ; i--){
-//     document.write(i);
-//     if( i === 1){
-//         document.write("Happy Independence Day");
-//     }
-// }
+
 
 const numberArray = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1];
 
